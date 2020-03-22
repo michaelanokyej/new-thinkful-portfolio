@@ -1,0 +1,17 @@
+footer {
+  padding: 16px 0;
+  background: #393e46;
+  color: #f0ece2;
+}
+
+footer > a {
+  color: #69779b;
+}
+
+footer ul.socials {
+  background-color: yellow;
+  color: black;
+}
+footer ul.socials li.center {
+  list-style: none;
+}
