@@ -131,8 +131,21 @@ class Home extends React.Component {
                 <img src="wander.png" alt="wander" />
               </div>
               <div className="thinkful-project-description">
-                <h3>Wander WebApp</h3>
+                <h3 className="in-project-header">Wander</h3>
                 <p>A webapp for users that wander and find new places.</p>
+                <div>
+                  <h4 className="in-project-header">Features & More</h4>
+                  <ul className="app-features-list">
+                    <li>
+                      Users can search for tours in every state in the USA
+                    </li>
+                    <li>New users can sign up to book tours.</li>
+                    <li>Old users can sign in too book tours.</li>
+                    <li>
+                      A registered user can become a guide by posting a tour.
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="jumboButtons">
                 <span className="spanButton">
@@ -160,8 +173,17 @@ class Home extends React.Component {
                 <img src="upLift-home.png" alt="upLift" />
               </div>
               <div className="thinkful-project-description">
-                <h3>UpLift WebApp</h3>
+                <h3 className="in-project-header">UpLift</h3>
                 <p>A webapp to make mentorship accessible to users.</p>
+                <div>
+                  <h4 className="in-project-header">Features & More</h4>
+                  <ul className="app-features-list">
+                    <li>Users can sign up/sign in.</li>
+                    <li>Users can post something.</li>
+                    <li>Users can comment on posts</li>
+                    <li>Users can send messages</li>
+                  </ul>
+                </div>
               </div>
               <div className="jumboButtons">
                 <span className="spanButton">
@@ -189,8 +211,19 @@ class Home extends React.Component {
                 <img src="parkfinder.png" alt="parkFinder" />
               </div>
               <div className="thinkful-project-description">
-                <h3>Park Finder WebApp</h3>
+                <h3 className="in-project-header">Park Finder</h3>
                 <p>An adventure driven web-app that searches for parks.</p>
+                <div>
+                  <h4 className="in-project-header">Features & More</h4>
+                  <ul className="app-features-list">
+                    <li>Gets weather at the current location</li>
+                    <li>Gets parks near user current location</li>
+                    <li>User can search for parks anywhere</li>
+                    <li>
+                      Results of user search is displayed with the weather
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div className="jumboButtons">
                 <span className="spanButton">
